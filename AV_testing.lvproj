@@ -13,10 +13,14 @@
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Type definitions" Type="Folder">
+			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
+			<Item Name="StateMachineVariables.ctl" Type="VI" URL="../controls/StateMachineVariables.ctl"/>
+		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="OBD_init.vi" Type="VI" URL="../OBD_init.vi"/>
 		<Item Name="OBD_speed.vi" Type="VI" URL="../OBD_speed.vi"/>
-		<Item Name="Reaction_space.vi" Type="VI" URL="../Reaction_space.vi"/>
-		<Item Name="Video Detection.vi" Type="VI" URL="../Video Detection.vi"/>
+		<Item Name="Spaghetti.vi" Type="VI" URL="../Spaghetti.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -92,6 +96,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="terminal_test.vi" Type="VI" URL="../terminal_test.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
