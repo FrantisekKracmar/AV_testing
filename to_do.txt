@@ -1,4 +1,4 @@
-[ ] terminal -> main
-[ ] reaction space -> main
-[ ] image out -> main
-[ ] horizontal-distance -> longitudinal-distance
+- [ ] terminal -> main
+- [ ] reaction space -> main
+- [ ] image out -> main
+- [ ] horizontal-distance -> longitudinal-distance
