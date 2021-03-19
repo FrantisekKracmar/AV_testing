@@ -1,6 +1,6 @@
-- [ ] terminal -> main
-- [ ] reaction space -> main
-- [ ] image out -> main
-- [ ] horizontal-distance -> longitudinal-distance
-- [ ] propojit reaction-space speed
+- [x] terminal -> main
+- [x] reaction space -> main
+- [x] image out -> main
+- [x] horizontal-distance -> longitudinal-distance
+- [x] propojit reaction-space speed
 - [ ] units
