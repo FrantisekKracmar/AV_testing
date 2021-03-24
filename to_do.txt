@@ -4,3 +4,6 @@
 - [x] horizontal-distance -> longitudinal-distance
 - [x] propojit reaction-space speed
 - [ ] units
+- [x] correct state space diagram
+- [x] image resolution to full hd
+- [ ] make it nicer 
