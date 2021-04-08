@@ -99,6 +99,51 @@
 			</Item>
 			<Item Name="terminal_test.vi" Type="VI" URL="../terminal_test.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="AV_testing" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DAE59A08-A762-4AB1-8082-E6ED34553CCF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{DAA739E8-F3DA-4B10-87D1-7878ADE4D0C1}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DAAA0CAD-AB0E-4721-AE22-2885DCF3E3B2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AV_testing</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/AV_testing</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{58662101-E743-43DD-8A21-5DEA5B55A88C}</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">run.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/AV_testing/run.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/AV_testing/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{98AEAB79-B937-4685-81B1-D20D175B9F57}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">AV_testing</Property>
+				<Property Name="TgtF_internalName" Type="Str">AV_testing</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">AV_testing</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{927AAAF5-57C1-4810-AD2C-CF53B9156503}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">run.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
