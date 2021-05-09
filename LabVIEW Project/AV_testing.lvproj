@@ -18,9 +18,7 @@
 			<Item Name="StateMachineVariables.ctl" Type="VI" URL="../controls/StateMachineVariables.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="OBD_init.vi" Type="VI" URL="../OBD_init.vi"/>
-		<Item Name="OBD_speed.vi" Type="VI" URL="../OBD_speed.vi"/>
-		<Item Name="Spaghetti.vi" Type="VI" URL="../Spaghetti.vi"/>
+		<Item Name="terminal.vi" Type="VI" URL="../terminal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -103,8 +101,6 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="getVIPath.vi" Type="VI" URL="../SubVIs/getVIPath.vi"/>
-			<Item Name="imageDrawGrid.vi" Type="VI" URL="../SubVIs/imageDrawGrid.vi"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -117,7 +113,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="terminal_test.vi" Type="VI" URL="../terminal_test.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AV_testing" Type="EXE">
